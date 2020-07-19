@@ -11,6 +11,19 @@ Use this template to setup three tier network on aws using cloudformation
 | AppName              | string  | Application Name       | theawslab                    | Y        |
 
 
+### Outputs
+
+| Output                | Description            |
+| --------------------- | ---------------------- |
+| VPC                   | VPC ID                 |
+| CIDR                  | VPC CIDR Block         |
+| DBSubnetAOutput       | DB Subnet A ID         |
+| DBSubnetBOutput       | DB Subnet B ID         |
+| PublicSubnetAOutput   | Public Subnet A ID     |
+| PublicSubnetBOutput   | Public Subnet B ID     |
+| PrivateSubnetAOutput  | Private Subnet A ID    |
+| PrivateSubnetBOutput  | Private Subnet B ID    |
+
 ## Execution Steps:
 
 1. Goto AWS CloudFormation Console.
