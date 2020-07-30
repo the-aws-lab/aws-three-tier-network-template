@@ -1,5 +1,17 @@
-# aws-three-tier-network-template
+# Launch Three Tier Network in AWS using CloudFormation
 Use this template to setup three tier network on aws using cloudformation
+
+This template will deploy the following resources:
+- Virtual Private Cloud
+- Subnets
+- Route Tables
+- Network ACLs
+- Nat Gateway
+- Internet Gateway
+- Elastic IP
+
+## Licence:
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 ## Usage Instructions:
 
@@ -33,3 +45,6 @@ Use this template to setup three tier network on aws using cloudformation
 5. Pass all the parameters
 6. Click Next on Configure Stack Options
 7. Review and Create Stack
+
+### Note:
+Edit the CIDR block as per your requirement
